@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro-bg2.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -224,7 +224,7 @@ a:focus,
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: -5%;
   margin-bottom: 10px;
 }
 .intro h1 span {
@@ -247,8 +247,9 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+  padding-bottom: 5%;
 }
-#features i.fa {
+#features div.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -259,6 +260,13 @@ header .intro-text {
   border-radius: 50%;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#features div img {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-top: -5%;
+  border-radius: 8px;
 }
 /* About Section */
 #about {
@@ -271,6 +279,7 @@ header .intro-text {
 #about h2 {
   position: relative;
   margin-bottom: 15px;
+  margin-top: 0;
   padding-bottom: 15px;
 }
 #about h2::after {
@@ -285,19 +294,22 @@ header .intro-text {
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
+  margin-top: 5%;
   list-style: none;
+  font-size: 18px;
   padding: 0;
 }
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 300;
   padding-right: 8px;
 }
 #about img {
   width: 520px;
+  height: auto;
   margin-top: 10px;
   background: #fff;
   border-right: 0;
@@ -329,7 +341,7 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
+#services div.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
@@ -338,6 +350,13 @@ header .intro-text {
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#services div img {
+  width: 85px;
+  height: 85px;
+  margin: auto;
+  margin-top: -17%;
+  border-radius: 7px;
 }
 #services h3 {
   font-weight: 500;
