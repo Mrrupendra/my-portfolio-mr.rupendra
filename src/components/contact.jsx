@@ -20,7 +20,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_now1lpc', 'template_ftd6rud', e.target, 'user_ij14aV8MEEnB126TG4bFt'
       )
       .then(
         (result) => {
@@ -31,6 +31,7 @@ export const Contact = (props) => {
           console.log(error.text)
         }
       )
+      e.target.reset();
   }
   return (
     <div>
@@ -41,7 +42,7 @@ export const Contact = (props) => {
               <div className='section-title'>
                 <h2>Get In Touch</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
+                  Please fill out the form below to send us an email and i will
                   get back to you as soon as possible.
                 </p>
               </div>
@@ -127,18 +128,24 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
+                    <a href={props.data ? props.data.linkedin : '/'}
+                       target="_blank" rel="noopener noreferrer"
+                    >
+                      <i className='fa fa-linkedin'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
+                    <a href={props.data ? props.data.twitter : '/'}
+                       target="_blank" rel="noopener noreferrer"
+                    >
                       <i className='fa fa-twitter'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
+                    <a href={props.data ? props.data.GitHub : '/'}
+                       target="_blank" rel="noopener noreferrer"
+                    >
+                      <i className='fa fa-github'></i>
                     </a>
                   </li>
                 </ul>
@@ -150,9 +157,11 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
+            &copy; This is an Portfolio, which is Design by {'Rupendra Singh '}
+            <a href='www.linkedin.com/in/rupendra-singh11'
+               target="_blank" rel="noopener noreferrer"
+            >
+              Contact
             </a>
           </p>
         </div>
