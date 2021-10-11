@@ -1,184 +1,178 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Hello, I'm Rupendra Singh",
+    "paragraph": "I'm a full-stack web developer."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "During my college days, I was very attracted to web applications because I wanted to understand the functionalities of a website and was curious to learn how a website could appear so interactive and responsive and how the backend operations take place.This led me to choosing full stack web development as my path. So, I joined Masai School and became a competitive programmer and a full-stack web developer.Now, I have hands-on experience in building websites and web applications. I specialize in JavaScript. As a Full-Stack web developer, I want to meet the requirements of the mocks and fulfill the user stories and make CRED operations for building user-friendly and dynamic websites.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "MongoDB",
+      "Express",
+      "NodeJs",
+      "React.js"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Html",
+      "Css",
+      "BootStrap",
+      "JavaScript"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Clone of JioSaavn",
+      "largeImage": "img/portfolio/l_img3.png",
+      "smallImage": "img/portfolio/s_img3.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Clone of JioSaavn",
+      "largeImage": "img/portfolio/l_img1.png",
+      "smallImage": "img/portfolio/s_img1.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Clone of JioSaavn",
+      "largeImage": "img/portfolio/l_img2.png",
+      "smallImage": "img/portfolio/s_img2.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Clone of Dunzo",
+      "largeImage": "img/portfolio/l_img4-1.png",
+      "smallImage": "img/portfolio/s_img4-1.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Clone of Dunzo",
+      "largeImage": "img/portfolio/l_img5.png",
+      "smallImage": "img/portfolio/s_img5.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Clone of Dunzo",
+      "largeImage": "img/portfolio/l_img6-1.png",
+      "smallImage": "img/portfolio/s_img6-1.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Online Jewellery Store",
+      "largeImage": "img/portfolio/l_img7-1.png",
+      "smallImage": "img/portfolio/s_img7-1.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Online Jewellery Store",
+      "largeImage": "img/portfolio/l_img8-1.png",
+      "smallImage": "img/portfolio/s_img8-1.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Online Jewellery Store",
+      "largeImage": "img/portfolio/l_img9-1.png",
+      "smallImage": "img/portfolio/s_img9-1.png"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa",
+      "src_p": "img/projects/p_img2.png",
+      "gitLink": "https://github.com/Sabareesh-Subramanian/JioSaavn_Clone.git",
+      "name": "Clone of JioSaavn",
+      "text": "This project is a complete clone UI of the jioSaavn website.Tech-Stack used to build this website is React.js | Html | CSS | JS | Mock-Server | NPM Libraries."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa",
+      "src_p": "img/projects/p_img1.png",
+      "gitLink": "https://github.com/mayur8600/DunzoBackend.git",
+      "name": "Clone of Dunzo using backend",
+      "text": "Dunzo is an e-commerce website that delivers groceries.Tech-Stack is used in which are HTML | CSS | Javascript | Express & Mongoose | Node | MongoDB | Razorpay"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa",
+      "src_p": "img/projects/p_img1.png",
+      "gitLink": "https://github.com/mayur8600/Dunzo.git",
+      "name": "Clone of Dunzo using local storage",
+      "text": "This is also a clone of Dunzo but it is based on local storage and it is only build in HTML | CSS | JavaScript and this is my first ever project in JavaScript."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa",
+      "src_p": "img/projects/p_img3.png",
+      "gitLink": "https://github.com/masai-course/rupendra_fw10_192/tree/master/unit-4/sprint-2/evaluation/grocery-store",
+      "name": "Grocery Management Store",
+      "text": "A functional to-do list to add, remove, toggle, and move groceries within lists and to other lists.In this project Tech-Stack used is HTML | CSS | Javascript | React.js."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa",
+      "src_p": "img/projects/p_img10.png",
+      "gitLink": "https://github.com/masai-course/rupendra_fw10_192/tree/master/unit-4/sprint-4/evaluation/book-store",
+      "name": "Book Store",
+      "text": "This is an Simple Book Store website where you can find the different books, you can search books, find details about author etc.The Tech-Stack is used to build this is | React.js | Routes | Links | HTML | CSS | JavaScript."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "icon": "fa",
+      "src_p": "img/projects/p_img7.png",
+      "gitLink": "https://github.com/Mrrupendra/MyDomProject.git",
+      "name": "Online Jewellery Store",
+      "text": "This an simple webapp where you can add any jewellery product in home page by entering some details of it like name,price and image,also you can add the product to cart and sort it by its price.Tech-Stack are HTML | CSS | Javascript."
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Sanjay Nagar, Jabalpur, Madhya Pradesh, 482004",
+    "phone": "+91 9109015247",
+    "email": "mr.rupendra11@gmail.com",
+    "linkedin": "www.linkedin.com/in/rupendra-singh11",
+    "twitter": "https://twitter.com/rupendra_11",
+    "GitHub": "https://github.com/Mrrupendra"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "bg": "fa",
+      "src": "img/feature/html1-1.png",
+      "alt": "image_1",
+      "title": "Html",
+      "text": "HTML is the standard markup language for documents designed to be displayed in a web browser."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "bg": "fa",
+      "src": "img/feature/css1.png",
+      "alt": "image_4",
+      "title": "Css",
+      "text": "CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "bg": "fa",
+      "src": "img/feature/js_image_3.svg",
+      "alt": "image_3",
+      "title": "JavaScript",
+      "text": "JavaScript is used to enables interactive web pages and is an essential part of web applications."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "bg": "fa",
+      "src": "img/feature/react_image_2.svg",
+      "alt": "image_4",
+      "title": "React",
+      "text": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components."
+    },
+    {
+      "bg": "fa",
+      "src": "img/feature/m_img1.svg",
+      "alt": "image_5",
+      "title": "MongoDB",
+      "text": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program."
+    },
+    {
+      "bg": "fa",
+      "src": "img/feature/ex_img2.png",
+      "alt": "image_6",
+      "title": "Express js",
+      "text": "Express.js,is a back end web application framework for Node.js, released as free and open-source software under the MIT License."
+    },
+    {
+      "bg": "fa",
+      "src": "img/feature/n_img3-1.png",
+      "alt": "image_7",
+      "title": "Node.js",
+      "text": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine."
+    },
+    {
+      "bg": "fa",
+      "src": "img/feature/b_img4-1.png",
+      "alt": "image_8",
+      "title": "Bootstrap",
+      "text": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.."
     }
   ]
 }
