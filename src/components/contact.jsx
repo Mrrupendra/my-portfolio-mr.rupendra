@@ -157,7 +157,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; This is an Portfolio, which is Design by {'Rupendra Singh '}
+            &copy; Thank you for visiting, this is an portfolio, which is design by {'Rupendra Singh '}
             <a href='www.linkedin.com/in/rupendra-singh11'
                target="_blank" rel="noopener noreferrer"
             >
