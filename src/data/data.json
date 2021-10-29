@@ -1,119 +1,43 @@
 {
   "Header": {
-    "title": "Hello, I'm Rupendra Singh",
+    "title": "Hello, I'm Rupendra",
     "paragraph": "I'm a full-stack web developer."
   },
   "About": {
-    "paragraph": "During my college days, I was very attracted to web applications because I wanted to understand the functionalities of a website and was curious to learn how a website could appear so interactive and responsive and how the backend operations take place.This led me to choosing full stack web development as my path. So, I joined Masai School and became a competitive programmer and a full-stack web developer.Now, I have hands-on experience in building websites and web applications. I specialize in JavaScript. As a Full-Stack web developer, I want to meet the requirements of the mocks and fulfill the user stories and make CRED operations for building user-friendly and dynamic websites.",
-    "Why": [
-      "MongoDB",
-      "Express",
-      "NodeJs",
-      "React.js"
-    ],
-    "Why2": [
-      "Html",
-      "Css",
-      "BootStrap",
-      "JavaScript"
-    ]
+    "paragraph": "Hi, my name is Rupendra Singh, I'm a full-stack web developer, during my college days, I was very attracted to web applications because I wanted to understand the functionalities of a website and was curious to learn how a website could appear so interactive and responsive and how the backend operations take place.This led me to choosing full stack web development as my path. So, I joined Masai School and became a competitive programmer and a full-stack web developer.Now, I have hands-on experience in building websites and web applications. I specialize in JavaScript. As a Full-Stack web developer, I want to meet the requirements of the mocks and fulfill the user stories and make CRED operations for building user-friendly and dynamic websites.",
+    "paragraphII": "Well-organised person, problem solver, competitive programmer with high attention to detail. Fan of Cricket, outdoor activities, Web series and Bike riding. A friendly person, Interested in the entire frontend spectrum and working on ambitious projects with positive people.",
+    "linkedin": "https://linkedin.com/in/rupendra-singh11",
+    "twitter": "https://twitter.com/rupendra_11",
+    "GitHub": "https://github.com/Mrrupendra"
   },
-  "Gallery": [
-    {
-      "title": "Clone of JioSaavn",
-      "largeImage": "img/portfolio/l_img3.png",
-      "smallImage": "img/portfolio/s_img3.png"
-    },
-    {
-      "title": "Clone of JioSaavn",
-      "largeImage": "img/portfolio/l_img1.png",
-      "smallImage": "img/portfolio/s_img1.png"
-    },
-    {
-      "title": "Clone of JioSaavn",
-      "largeImage": "img/portfolio/l_img2.png",
-      "smallImage": "img/portfolio/s_img2.png"
-    },
-    {
-      "title": "Clone of Dunzo",
-      "largeImage": "img/portfolio/l_img4-1.png",
-      "smallImage": "img/portfolio/s_img4-1.png"
-    },
-    {
-      "title": "Clone of Dunzo",
-      "largeImage": "img/portfolio/l_img5.png",
-      "smallImage": "img/portfolio/s_img5.png"
-    },
-    {
-      "title": "Clone of Dunzo",
-      "largeImage": "img/portfolio/l_img6-1.png",
-      "smallImage": "img/portfolio/s_img6-1.png"
-    },
-    {
-      "title": "Online Jewellery Store",
-      "largeImage": "img/portfolio/l_img7-1.png",
-      "smallImage": "img/portfolio/s_img7-1.png"
-    },
-    {
-      "title": "Online Jewellery Store",
-      "largeImage": "img/portfolio/l_img8-1.png",
-      "smallImage": "img/portfolio/s_img8-1.png"
-    },
-    {
-      "title": "Online Jewellery Store",
-      "largeImage": "img/portfolio/l_img9-1.png",
-      "smallImage": "img/portfolio/s_img9-1.png"
-    }
-  ],
   "Services": [
     {
       "icon": "fa",
-      "src_p": "img/projects/p_img2.png",
-      "gitLink": "https://github.com/Sabareesh-Subramanian/JioSaavn_Clone.git",
+      "src_p": "img/portfolio/s_d.png",
+      "name": "Clone of Dunzo",
+      "desktop": "https://mrrupendra.github.io/Dunzo_Clone/",
+      "GitHub": "https://github.com/mayur8600/Dunzo.git"
+    },
+    {
+      "icon": "fa",
+      "src_p": "img/portfolio/s_img3.png",
       "name": "Clone of JioSaavn",
-      "text": "This project is a complete clone UI of the jioSaavn website.Tech-Stack used to build this website is React.js | Html | CSS | JS | Mock-Server | NPM Libraries."
+      "desktop": "https://jiosaavn-sabareesh.vercel.app/",
+      "GitHub": "https://github.com/Sabareesh-Subramanian/JioSaavn_Clone.git"
     },
     {
       "icon": "fa",
-      "src_p": "img/projects/p_img1.png",
-      "gitLink": "https://github.com/mayur8600/DunzoBackend.git",
-      "name": "Clone of Dunzo using backend",
-      "text": "Dunzo is an e-commerce website that delivers groceries.Tech-Stack is used in which are HTML | CSS | Javascript | Express & Mongoose | Node | MongoDB | Razorpay"
-    },
-    {
-      "icon": "fa",
-      "src_p": "img/projects/p_img1.png",
-      "gitLink": "https://github.com/mayur8600/Dunzo.git",
-      "name": "Clone of Dunzo using local storage",
-      "text": "This is also a clone of Dunzo but it is based on local storage and it is only build in HTML | CSS | JavaScript and this is my first ever project in JavaScript."
-    },
-    {
-      "icon": "fa",
-      "src_p": "img/projects/p_img3.png",
-      "gitLink": "https://github.com/masai-course/rupendra_fw10_192/tree/master/unit-4/sprint-2/evaluation/grocery-store",
-      "name": "Grocery Management Store",
-      "text": "A functional to-do list to add, remove, toggle, and move groceries within lists and to other lists.In this project Tech-Stack used is HTML | CSS | Javascript | React.js."
-    },
-    {
-      "icon": "fa",
-      "src_p": "img/projects/p_img10.png",
-      "gitLink": "https://github.com/masai-course/rupendra_fw10_192/tree/master/unit-4/sprint-4/evaluation/book-store",
-      "name": "Book Store",
-      "text": "This is an Simple Book Store website where you can find the different books, you can search books, find details about author etc.The Tech-Stack is used to build this is | React.js | Routes | Links | HTML | CSS | JavaScript."
-    },
-    {
-      "icon": "fa",
-      "src_p": "img/projects/p_img7.png",
-      "gitLink": "https://github.com/Mrrupendra/MyDomProject.git",
+      "src_p": "img/portfolio/s_img7-1.png",
       "name": "Online Jewellery Store",
-      "text": "This an simple webapp where you can add any jewellery product in home page by entering some details of it like name,price and image,also you can add the product to cart and sort it by its price.Tech-Stack are HTML | CSS | Javascript."
+      "desktop": "https://mrrupendra.github.io/MyDomProject/",
+      "GitHub": "https://github.com/Mrrupendra/MyDomProject.git"
     }
   ],
   "Contact": {
     "address": "Sanjay Nagar, Jabalpur, Madhya Pradesh, 482004",
     "phone": "+91 9109015247",
     "email": "mr.rupendra11@gmail.com",
-    "linkedin": "www.linkedin.com/in/rupendra-singh11",
+    "linkedin": "https://linkedin.com/in/rupendra-singh11",
     "twitter": "https://twitter.com/rupendra_11",
     "GitHub": "https://github.com/Mrrupendra"
   },
@@ -151,28 +75,28 @@
       "src": "img/feature/m_img1.svg",
       "alt": "image_5",
       "title": "MongoDB",
-      "text": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program."
+      "text": "MongoDB is a source-available cross-platform document-oriented database program."
     },
     {
       "bg": "fa",
       "src": "img/feature/ex_img2.png",
       "alt": "image_6",
       "title": "Express js",
-      "text": "Express.js,is a back end web application framework for Node.js, released as free and open-source software under the MIT License."
+      "text": "Express.js,is a back end web application framework for Node.js, released as free and open-source software."
     },
     {
       "bg": "fa",
       "src": "img/feature/n_img3-1.png",
       "alt": "image_7",
       "title": "Node.js",
-      "text": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine."
+      "text": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment."
     },
     {
       "bg": "fa",
       "src": "img/feature/b_img4-1.png",
       "alt": "image_8",
       "title": "Bootstrap",
-      "text": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.."
+      "text": "Bootstrap is a free and open-source CSS framework directed at responsive, front-end web development."
     }
   ]
 }
