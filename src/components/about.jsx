@@ -11,27 +11,37 @@ export const About = (props) => {
             <div className="about-text">
               <h2>About Me</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>My Technical Skills</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
+              <p>{props.data ? props.data.paragraphII : "loading..."}</p>
+              
+              <div className='col-md-12'>
+            <div className='row'>
+              <div className='social'>
+                <ul>
+                  <li>
+                    <a href={props.data ? props.data.linkedin : '/'}
+                       target="_blank" rel="noopener noreferrer"
+                    >
+                      <i className='fa fa-linkedin'></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.twitter : '/'}
+                       target="_blank" rel="noopener noreferrer"
+                    >
+                      <i className='fa fa-twitter'></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.GitHub : '/'}
+                       target="_blank" rel="noopener noreferrer"
+                    >
+                      <i className='fa fa-github'></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
+            </div>
+          </div>
             </div>
           </div>
         </div>

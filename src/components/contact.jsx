@@ -158,7 +158,7 @@ export const Contact = (props) => {
         <div className='container text-center'>
           <p>
             &copy; Thank you for visiting, this is an portfolio, which is design by {'Rupendra Singh '}
-            <a href='www.linkedin.com/in/rupendra-singh11'
+            <a href='https://.linkedin.com/in/rupendra-singh11'
                target="_blank" rel="noopener noreferrer"
             >
               Contact
