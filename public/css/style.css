@@ -221,23 +221,61 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 68px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: -5%;
+  margin-top: 0;
   margin-bottom: 10px;
 }
+
+/* effect-shine */
+.intro h1:hover {
+  transition: transform 4s ease-out;
+  transform: rotateY(360deg);
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1s infinite;
+  cursor: pointer;
+}
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
 }
 .intro p {
   color: #fff;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+}
+.intro p:hover {
+  transition: transform 4s ease-out;
+  transform: rotateY(360deg);
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1s infinite;
+  cursor: pointer;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
 }
 header .intro-text {
   padding-top: 350px;
@@ -271,41 +309,32 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: #fff;
+
 }
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
+  color: #fff;
 }
 #about h2 {
   position: relative;
   margin-bottom: 15px;
   margin-top: 0;
   padding-bottom: 15px;
+  color: #fff;
 }
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+  background: rgba(255, 255, 255, 0.3);
   height: 4px;
   width: 60px;
   bottom: 0;
   left: 0;
-}
-#about .about-text li {
-  margin-bottom: 6px;
-  margin-left: 6px;
-  margin-top: 5%;
-  list-style: none;
-  font-size: 18px;
-  padding: 0;
-}
-#about .about-text li:before {
-  content: "\f00c";
-  font-family: "FontAwesome";
-  color: #5ca9fb;
-  font-size: 15px;
-  font-weight: 300;
-  padding-right: 8px;
+  color: #fff;
 }
 #about img {
   width: 520px;
@@ -318,57 +347,193 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 30px 0;
+  color: rgba(255, 255, 255, 0.75);
 }
+#about .social {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+#about .social ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+#about .social i.fa {
+  font-size: 22px;
+  width: 48px;
+  height: 48px;
+  padding: 12px 0;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+#about .social i.fa:hover {
+  color: #608dfd;
+  background: #fff;
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  background: #f6f6f6;
+  color: #333333;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #333333;
 }
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  /* background: rgba(255, 255, 255, 0.3); */
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
   margin-left: -30px;
   left: 50%;
 }
+
+/* hero image start */
+
 #services div.fa {
   font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  border-radius: 50%;
-  color: #fff;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 5%;
+  /* padding: 40px 0; */
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+  /* border-radius: 5%; */
+  /* color: #333333; */
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  background-color: transparent;
+  /* width: 300px;
+  height: 200px; */
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
 }
-#services div img {
-  width: 85px;
-  height: 85px;
-  margin: auto;
-  margin-top: -17%;
-  border-radius: 7px;
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
-#services h3 {
-  font-weight: 500;
+.fa:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box-back h3 {
+  font-weight: 600;
   padding: 5px 0;
-  color: #fff;
+  color: #ffffff;
 }
-#services p {
-  color: rgba(255, 255, 255, 0.75);
+.flip-box-back p {
+  color: #777777;
 }
-#services .service-desc {
+.service-desc {
   margin-bottom: 40px;
+  display: flex;
+  gap: 5%;
+  margin: auto;
 }
+
+/* back-icons-css*/
+
+#services .social {
+  /* border-top: 1px solid rgba(255, 255, 255, 0.15); */
+  padding-top: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+#services .social ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+#services .social i.fa {
+  font-size: 22px;
+  width: 48px;
+  height: 48px;
+  padding: 12px 0;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+#services .social i.fa:hover {
+  color: #608dfd;
+  background: #fff;
+}
+
+.btn-project {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #5ca9fb;
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  padding: 8px 20px;
+  letter-spacing: 1px;
+  margin-top: 4%;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 0;
+}
+.btn-project:hover,
+.btn-project:focus,
+.btn-project.focus,
+.btn-project:active,
+.btn-project.active {
+  color: #fff;
+  background-image: none;
+  background-color: #6372ff;
+}
+/* #services span {
+  margin-right: 2%;
+} */
+
+#services .row > div {
+  margin-bottom: 5%;
+}
+
+.project-name{
+  font-size: 18px;
+  font-weight: 600;
+}
+.display-flex-btn {
+  width: 100%;
+  display: flex;
+  gap: 4%;
+  margin-bottom: 2%;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -418,64 +583,7 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
-  padding: 100px 0;
-  background: #f6f6f6;
-}
-#testimonials i {
-  color: #e6e6e6;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-.testimonial {
-  position: relative;
-  padding: 20px;
-}
-.testimonial-image {
-  float: left;
-  margin-right: 15px;
-}
-.testimonial-image,
-.testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-.testimonial-content {
-  position: relative;
-  overflow: hidden;
-}
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
-.testimonial-meta {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
-}
-/* Team Section */
-#team {
-  padding: 100px 0;
-}
-#team h4 {
-  margin: 5px 0;
-}
-#team .team-img {
-  width: 240px;
-}
-#team .thumbnail {
-  background: transparent;
-  border: 0;
-}
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
-}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
