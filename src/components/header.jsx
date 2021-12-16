@@ -12,7 +12,7 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
-                  href='https://drive.google.com/file/d/10dDCuwNigmUOcs1ZI-O-FEPNnLftr3th/view?usp=sharing'
+                  href='https://drive.google.com/drive/folders/1NZWUeWh2blEoiZSS2lOn3vXh9SSGjMAZ?usp=sharing'
                   className='btn btn-custom btn-lg page-scroll'
                   target="_blank" rel="noopener noreferrer"
                 >
