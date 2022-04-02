@@ -16,7 +16,7 @@ export const Features = (props) => {
                     <img src={d.src} alt={d.alt} />
                   </div>
                   <h3>{d.title}</h3>
-                  <p>{d.text}</p>
+                  <p className='feature-text'>{d.text}</p>
                 </div>
               ))
             : 'Loading...'}
